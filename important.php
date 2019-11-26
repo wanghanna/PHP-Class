@@ -26,7 +26,7 @@ print "isset() ; empty() ; is_null()<hr>";
 
 <?php
 echo "<h1>使用flag的方式做判斷式</h1>";
-echo "flag = 0<br>flag++<br>flag--<hr>"
+echo "flag = 0<br>flag++<br>flag--<hr>";
 ?>
 
 <?php
@@ -41,5 +41,20 @@ echo "switch(變數){case '變數值': 結果 break...default}<hr>";
 
 <?php
 echo "<h1>載入檔案</h1>";
-echo "include();include_once();require();require_once()";
+echo "include();include_once();require();require_once()<hr>";
+?>
+
+<?php
+echo "<h1>for迴圈</h1>";
+echo "for(起始值; 執行的條件; 每次執行後要做的事){事件};<hr>"
+?>
+
+<?php
+echo "<h1>while</h1>";
+echo "while(條件){事件}<hr>";
+?>
+
+<?php
+echo "<h1>do while</h1>";
+echo "do{事件}while(條件)<hr>";
 ?>
