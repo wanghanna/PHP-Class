@@ -1,6 +1,6 @@
-<div style="width:700px;height:700px;background:#000;text-align:center;">
+<div style="width:100vw;height:100vh;background:#000;text-align:center;">
 <?php
-for($i=1;$i<50;$i+=2){
+for($i=1;$i<70;$i+=2){
 
     for($j=1;$j<=$i;$j++){
         $colorSet = rand(1,10);
