@@ -103,3 +103,8 @@ echo "substr(字串,起始值,數量)";
 echo "<h3>md5() 可以將值轉成亂碼，通常用在密碼</h3>";
 echo "<h3>chr() 可以查詢ASCII碼</h3>"
 ?>
+<hr>
+<?php
+echo "<h3>function(){}</h3>";
+
+?>
