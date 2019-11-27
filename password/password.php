@@ -66,3 +66,29 @@ while($num<6){
     $num++;
 }
 ?>
+<hr>
+<h3>使用function</h3>
+<?php
+$ans=pwd(10);
+function pwd($many){
+if($many==0)echo "請輸入數字";
+else {    
+    for($i=1;$i<=$many;$i++){        
+        $max=rand(8,12);
+        $pwdstr="";
+        for($j=1;$j<=8;$j++){
+            $pas=rand(1,62);
+            if($pas<11) $pwdstr.=(chr($pas+47));
+            elseif($pas<37) $pwdstr.=(chr($pas+54));
+            else $pwdstr.=(chr($pas+60)); 
+        }
+        $ary[]=$pwdstr;
+    }
+    return $ary;
+}
+}
+foreach($ans as $key => $val){
+    echo "第".($key+1)."組密碼:".$val."<br>";
+}
+
+?>
