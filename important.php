@@ -108,3 +108,29 @@ echo "<h3>chr() 可以查詢ASCII碼</h3>"
 echo "<h3>function(){}</h3>";
 
 ?>
+
+<?php
+echo "<h3>POST/GET</h3>";
+echo "mehtod:'POST'/method:'GET'";
+?>
+
+<?php
+echo "<h3>_COOKIE[]:存在客戶端/_SESSION[]:存在伺服器+session_start()</h3>";
+echo "<p></p>unset()/session_unset()/session_destroy()</p>";
+echo "<p>setcookie(變數,值,生命週期,指定有效的網域,資料加密)</p>";
+echo "<p>ex: setcookie('name','admin',time()+10)</p>";
+?>
+<hr>
+<?php
+echo "<h3>form method='post' enctyle='mulitpart/form-data' form</h3> ";
+echo "<h3>input <b>type='file' <h3>";
+echo "<h3>print_r(_file)</h3>";
+echo "<h5>_FILES['mypic1']['name']</h5>";
+echo "<h5>_FILS['mypic1']['tmp_name']</h5>";
+echo "<h5>_FILES['mypic1']['type']</h5>";
+echo "<h5>_FILES['mypic1']['size']</h5>";
+echo "<h5>copy(from,to)</h5>";
+echo "<p>copy(_FILES['mypic1'][tmp_name],'upload/'._FILES['mypic1']['name'])</p>";
+echo "<p>unlink('upload/20190624132119koala.jpg'])</p>";
+echo "<p>變數='檔案名稱.jpg';unlink('檔案路徑/'.變數)</p>"
+?>

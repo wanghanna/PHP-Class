@@ -10,7 +10,7 @@ transform:rotate(360deg);
 </style>
 <body style="width:100vw;height:100vh;background:black">
  <?php
- $starNum=rand(50,200);
+ $starNum=rand(20,150);
 for($i=1;$i<=$starNum;$i++){
 $poT=rand(0,100);
 $poL=rand(0,100);
